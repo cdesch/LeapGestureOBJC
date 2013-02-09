@@ -15,6 +15,12 @@
 		2355323616C591E100BAFC8D /* LeapGestureOBJC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2355321816C591E100BAFC8D /* LeapGestureOBJC.framework */; };
 		2355323C16C591E100BAFC8D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2355323A16C591E100BAFC8D /* InfoPlist.strings */; };
 		2355323F16C591E200BAFC8D /* LeapGestureOBJCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2355323E16C591E200BAFC8D /* LeapGestureOBJCTests.m */; };
+		2355324A16C5939600BAFC8D /* Gesture.h in Headers */ = {isa = PBXBuildFile; fileRef = 2355324816C5939600BAFC8D /* Gesture.h */; };
+		2355324B16C5939600BAFC8D /* Gesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 2355324916C5939600BAFC8D /* Gesture.m */; };
+		2355324E16C5948200BAFC8D /* AccelerationVector.h in Headers */ = {isa = PBXBuildFile; fileRef = 2355324C16C5948200BAFC8D /* AccelerationVector.h */; };
+		2355324F16C5948200BAFC8D /* AccelerationVector.m in Sources */ = {isa = PBXBuildFile; fileRef = 2355324D16C5948200BAFC8D /* AccelerationVector.m */; };
+		2355325216C59C5400BAFC8D /* GestureModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2355325016C59C5400BAFC8D /* GestureModel.h */; };
+		2355325316C59C5400BAFC8D /* GestureModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2355325116C59C5400BAFC8D /* GestureModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		2355323B16C591E100BAFC8D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2355323D16C591E100BAFC8D /* LeapGestureOBJCTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeapGestureOBJCTests.h; sourceTree = "<group>"; };
 		2355323E16C591E200BAFC8D /* LeapGestureOBJCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeapGestureOBJCTests.m; sourceTree = "<group>"; };
+		2355324816C5939600BAFC8D /* Gesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gesture.h; sourceTree = "<group>"; };
+		2355324916C5939600BAFC8D /* Gesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gesture.m; sourceTree = "<group>"; };
+		2355324C16C5948200BAFC8D /* AccelerationVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccelerationVector.h; sourceTree = "<group>"; };
+		2355324D16C5948200BAFC8D /* AccelerationVector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccelerationVector.m; sourceTree = "<group>"; };
+		2355325016C59C5400BAFC8D /* GestureModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureModel.h; sourceTree = "<group>"; };
+		2355325116C59C5400BAFC8D /* GestureModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +124,12 @@
 			children = (
 				2355322816C591E100BAFC8D /* LeapGestureOBJC.h */,
 				2355322916C591E100BAFC8D /* LeapGestureOBJC.m */,
+				2355324816C5939600BAFC8D /* Gesture.h */,
+				2355324916C5939600BAFC8D /* Gesture.m */,
+				2355325016C59C5400BAFC8D /* GestureModel.h */,
+				2355325116C59C5400BAFC8D /* GestureModel.m */,
+				2355324C16C5948200BAFC8D /* AccelerationVector.h */,
+				2355324D16C5948200BAFC8D /* AccelerationVector.m */,
 				2355322216C591E100BAFC8D /* Supporting Files */,
 			);
 			path = LeapGestureOBJC;
@@ -153,6 +171,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2355324A16C5939600BAFC8D /* Gesture.h in Headers */,
+				2355324E16C5948200BAFC8D /* AccelerationVector.h in Headers */,
+				2355325216C59C5400BAFC8D /* GestureModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +285,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2355322A16C591E100BAFC8D /* LeapGestureOBJC.m in Sources */,
+				2355324B16C5939600BAFC8D /* Gesture.m in Sources */,
+				2355324F16C5948200BAFC8D /* AccelerationVector.m in Sources */,
+				2355325316C59C5400BAFC8D /* GestureModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
